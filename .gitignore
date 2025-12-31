@@ -12,7 +12,8 @@ buildNumber.properties
 
 # Compiled class files
 *.class
-com/
+# Only ignore old com/ directory (not src/main/java/com/)
+/com/
 
 # Log files
 *.log
